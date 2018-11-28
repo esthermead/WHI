@@ -1,0 +1,40 @@
+_CONCLUSION-MLPlinear10-WHI_socialSupport_and_freedomToMakeLifeChoices
+
+
+what, testvalue1, testvalue2, truevalue1, truevalue2, 
+	alpha, iterations, predictedvalue1, predictedvalue2.
+
+
+WHI_socialSupport_stdscaler.txt, 0.422240019, 0.669688404, TRUE= -0.65958711, 0.339155613,
+	0.001, 500, -0.004997, -0.009660.
+	1.0, 150000, 0.546824, 0.084849.
+	1.0, 300000, 0.546824, 0.084849.
+	-works (no errors) when standardize, but not good at predicting, and the final plots look weird.
+
+
+
+WHI_socialSupport_minmaxscaler.txt, 0.566281199, 0.725150704, TRUE= 0.515269608, 0.142564574,
+	0.001, 500, 0.092977, 0.099835.
+	1.0, 150000, 0.266317, 0.187961.
+	1.0, 300000, 0.266317, 0.187961.
+	-works (no errors) when standardize, but not good at predicting, and the final plots look weird.
+
+
+WHI_freedomToMakeLifeChoices_stdscaler.txt, 0.522566199, 0.80797106, TRUE= -0.611559659, 1.627736198,
+	0.001, 500, -0.002343, -0.004077.
+	1.0, 150000, 0.062568, -0.107116.
+	1.0, 300000, 0.062568, -0.107116.
+	-works (no errors) when standardize, but not good at predicting, and the final plots look weird.
+
+
+WHI_freedomToMakeLifeChoices_minmaxscaler.txt, 0.522566199, 0.80410856, TRUE= 0.031340096, 0.107046431,
+	0.001, 200, 0.044406, 0.050157
+	0.001, 500, 0.091557, 0.103316.	<--closest.
+	1.0, 150000, 0.209430, 0.165210.
+	1.0, 300000, 0.209430, 0.165210.
+	-works (no errors) when standardize, but not good at predicting, and the final plots look weird.
+
+
+can go back later and continue to vary alpha and iterations if want, but probably won't improve prediction.
+
+see .ipynb
