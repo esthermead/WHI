@@ -30,6 +30,7 @@ WHI_freedomToMakeLifeChoices_stdscaler.txt, 0.522566199, 0.80797106, TRUE= -0.61
 WHI_freedomToMakeLifeChoices_minmaxscaler.txt, 0.522566199, 0.80410856, TRUE= 0.031340096, 0.107046431,
 	0.001, 200, 0.044406, 0.050157
 	0.001, 500, 0.091557, 0.103316.	<--closest.
+	0.003, 2000, 0.183819, 0.201979	<--prediction too high; point out cost curve.
 	1.0, 150000, 0.209430, 0.165210.
 	1.0, 300000, 0.209430, 0.165210.
 	-works (no errors) when standardize, but not good at predicting, and the final plots look weird.
