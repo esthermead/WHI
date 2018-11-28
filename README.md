@@ -1,0 +1,2 @@
+# WHI
+World Happiness Index
